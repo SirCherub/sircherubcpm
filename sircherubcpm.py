@@ -17,7 +17,7 @@ import time
 # Lokal mock auth kullan (Firebase'e çağrı atma, sabit token döndür)
 USE_LOCAL_AUTH = True
 # BASE_URL'i ortamdan al; yoksa prod URL'i kullan
-BASE_URL = os.getenv("BASE_URL", "https://admincpm.io/KrishDev/api")
+BASE_URL = os.getenv("BASE_URL", "http://127.0.0.1:5000/KrishDev/api")
 # Örn: export BASE_URL="http://127.0.0.1:5000/KrishDev/api"
 
 def show_banner(unlimited_status=None, current_coins=None, telegram_id=None):
