@@ -35,7 +35,7 @@ except Exception as e:
     sys.exit(1)
 
 # Sunucu endpoint'lerini kullanmaya devam etmek istemezsen BASE_URL önemli değil.
-"BASE_URL = os.getenv("BASE_URL", "https://admincpm.io/KrishDev/api")
+"BASE_URL = os.getenv("BASE_URL", "http://localhost/mockapi")
 
 # Sheets'ten okunan token hafızada tutulacak
 SHEETS_TOKEN = None
