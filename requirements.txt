@@ -3,3 +3,7 @@ mysql-connector-python
 pyfiglet
 rich
 urllib3
+
+# Google Sheets için eklenenler
+gspread
+google-auth
