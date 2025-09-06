@@ -1,9 +1,12 @@
+# Temel bağımlılıklar
 requests
 mysql-connector-python
 pyfiglet
 rich
 urllib3
 
-# Google Sheets için eklenenler
+# Google Sheets için gerekli olanlar
 gspread
 google-auth
+google-auth-oauthlib
+google-auth-httplib2
